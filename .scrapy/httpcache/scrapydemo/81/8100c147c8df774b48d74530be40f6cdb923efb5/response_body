@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+<!-- JSTL ?? -->
+
+
+
+
+
+
+
+<!-- struts2 ?? -->
+
+    	 
+<!-- ?????? -->
+
+
+
+<script type="text/javascript" src="/scripts/jquery.js"></script>
+<script type="text/javascript" src="/scripts/jquery.validate.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="/scripts/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/scripts/ueditor/ueditor.all.min.js"> </script>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>江苏一米智能科技股份有限公司--一米科技，ERP、CRM、HR、PDM、WMS、MES、OA、条码管理、移动应用、物联网，企业管理综合解决方案</title>
+	
+<frameset rows="75,*" cols="*" frameborder="no" border="0" framespacing="0">
+  <frame src="index.jsp" name="topFrame" scrolling="No" noresize="noresize" id="topFrame"  bordercolor="red" style="border-bottom:2px solid #c1c1c1;"/>
+    <frameset >
+      <frame src="Botjump.jsp" name="mainFrame" id="mainFrame"/>
+    </frameset>
+  </frameset>
+</frameset>
+<noframes><body>
+</body>
+</noframes>
+</html>

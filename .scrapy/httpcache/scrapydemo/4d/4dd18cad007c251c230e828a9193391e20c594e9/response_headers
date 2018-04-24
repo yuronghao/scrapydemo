@@ -1,0 +1,12 @@
+Server: openresty
+Date: Wed, 18 Apr 2018 08:44:26 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Expires: Wed, 18 Apr 2018 11:29:57 GMT
+Cache-Control: max-age=10800, must-revalidate
+Set-Cookie: 
+Pragma: 
+Content-Encoding: gzip
+X-Cache: EXPIRED from rexxar-ctc-sdjn-p1-226-166
+X-Cache: EXPIRED from rexxar-ctc-sdjn-p1-226-190
+X-Cache: HIT from rexxar-cmc-jsnt-n-158-138

@@ -1,0 +1,2370 @@
+2018-04-19 14:20:33 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 14:20:33 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 14:20:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 14:20:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 14:20:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 14:20:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 14:20:33 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 14:20:33 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 14:20:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 14:20:33 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-19 14:20:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.taojintimes.com/a/about/> (referer: None)
+2018-04-19 14:20:34 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 14:20:34 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 226,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 19045,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 6, 20, 34, 25990),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 6, 20, 33, 804566)}
+2018-04-19 14:20:34 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 14:20:51 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 14:20:51 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 14:20:51 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 14:20:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 14:20:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 14:20:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 14:20:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 14:20:52 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 14:20:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 14:20:52 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 14:20:52 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 226,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 19045,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 6, 20, 52, 455627),
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 6, 20, 52, 214244)}
+2018-04-19 14:20:52 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 14:21:21 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 14:21:21 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 14:21:21 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 14:21:22 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 14:21:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 14:21:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 14:21:22 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 14:21:22 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 14:21:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 14:21:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 14:21:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 226,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 19045,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 6, 21, 23, 64487),
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 6, 21, 22, 440607)}
+2018-04-19 14:21:23 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 14:23:48 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 14:23:48 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 14:23:48 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 14:23:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 14:23:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 14:23:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 14:23:49 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 14:23:49 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 14:23:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 14:23:49 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-19 14:23:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.taojintimes.com/a/about/> (referer: None)
+2018-04-19 14:23:49 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 14:23:49 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 226,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 19045,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 6, 23, 49, 635361),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 6, 23, 49, 419972)}
+2018-04-19 14:23:49 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 14:36:52 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 14:36:52 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 14:36:52 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 14:36:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 14:36:53 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 14:36:53 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 14:36:53 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 14:36:53 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 14:36:53 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 14:36:53 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-19 14:36:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.taojintimes.com/a/about/> (referer: None)
+2018-04-19 14:36:53 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 14:36:53 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 226,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 19045,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 6, 36, 53, 522571),
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 6, 36, 53, 303557)}
+2018-04-19 14:36:53 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 16:09:09 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 16:09:09 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 16:09:09 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 16:09:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 16:09:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 16:09:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 16:09:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 16:09:10 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 16:09:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 16:09:10 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-19 16:09:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/haokan/> (referer: None)
+2018-04-19 16:09:10 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.hengyan.com/haokan/> (referer: None)
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\spiders\BiduSpider.py", line 35, in parse
+    selector = Selector(response)
+NameError: name 'Selector' is not defined
+2018-04-19 16:09:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 16:09:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 221,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 45969,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 8, 9, 10, 750533),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/NameError': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 8, 9, 10, 322701)}
+2018-04-19 16:09:10 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 16:09:20 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 16:09:20 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 16:09:20 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 16:09:20 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 16:09:20 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 16:09:20 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 16:09:20 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 16:09:20 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 16:09:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 16:09:20 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-19 16:09:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/haokan/> (referer: None)
+2018-04-19 16:09:21 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.hengyan.com/haokan/> (referer: None)
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\spiders\BiduSpider.py", line 35, in parse
+    selector = Selector(response)
+NameError: name 'Selector' is not defined
+2018-04-19 16:09:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 16:09:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 221,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 45969,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 8, 9, 21, 246773),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/NameError': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 8, 9, 20, 827547)}
+2018-04-19 16:09:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 16:14:46 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 16:14:46 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 16:14:46 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 16:14:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 16:14:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 16:14:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 16:14:46 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 16:14:46 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 16:14:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 16:14:46 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-19 16:14:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/haokan/> (referer: None)
+2018-04-19 16:14:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.hengyan.com/haokan/> (referer: None)
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\spiders\BiduSpider.py", line 35, in parse
+    selector = Selector(response)
+NameError: name 'Selector' is not defined
+2018-04-19 16:14:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 16:14:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 221,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 45969,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 8, 14, 47, 455655),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/NameError': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 8, 14, 46, 977006)}
+2018-04-19 16:14:47 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 16:15:01 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 16:15:01 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 16:15:01 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 16:15:01 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 16:15:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 16:15:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 16:15:02 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 16:15:02 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 16:15:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 16:15:02 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-19 16:15:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/haokan/> (referer: None)
+2018-04-19 16:15:02 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.hengyan.com/haokan/> (referer: None)
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\spiders\BiduSpider.py", line 35, in parse
+    selector = Selector(response)
+NameError: name 'Selector' is not defined
+2018-04-19 16:15:02 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 16:15:02 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 221,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 45969,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 8, 15, 2, 989181),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/NameError': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 8, 15, 2, 390827)}
+2018-04-19 16:15:02 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-19 16:15:09 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-19 16:15:09 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-19 16:15:09 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-19 16:15:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-19 16:15:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-19 16:15:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-19 16:15:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-04-19 16:15:10 [scrapy.core.engine] INFO: Spider opened
+2018-04-19 16:15:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-19 16:15:10 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-19 16:15:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/haokan/> (referer: None)
+2018-04-19 16:15:10 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.hengyan.com/haokan/> (referer: None)
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\spiders\BiduSpider.py", line 35, in parse
+    selector = Selector(response)
+NameError: name 'Selector' is not defined
+2018-04-19 16:15:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-19 16:15:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 221,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 45969,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 19, 8, 15, 10, 627940),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/NameError': 1,
+ 'start_time': datetime.datetime(2018, 4, 19, 8, 15, 10, 143695)}
+2018-04-19 16:15:10 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-20 16:37:59 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-20 16:37:59 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-20 16:37:59 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-20 16:37:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-20 16:37:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-20 16:37:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-20 16:37:59 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapydemo.pipelines.ScrapydemoPipeline']
+2018-04-20 16:37:59 [scrapy.core.engine] INFO: Spider opened
+2018-04-20 16:37:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-20 16:37:59 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-20 16:37:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/haokan/> (referer: None)
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': [], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),(),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': [], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),(),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['作者'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('作者'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['剑锋'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('剑锋'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['玄医灵药'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('玄医灵药'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['米早早'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('米早早'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['日当午'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('日当午'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['挥墨客'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('挥墨客'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['猫猫德'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('猫猫德'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['风光不再'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('风光不再'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['挥墨客'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('挥墨客'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['雪无泪'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('雪无泪'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['天上无鱼'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('天上无鱼'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['悲情周少'],
+ 'bookname': ['顶级强少'],
+ 'novelurl': ['http://www.hengyan.com/book/2344.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['莫一'],
+ 'bookname': ['冷皇琴后'],
+ 'novelurl': ['http://mm.hengyan.com/book/13314.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['小怪'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('小怪'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['烈酒砒霜'],
+ 'bookname': ['逆天魔神'],
+ 'novelurl': ['http://www.hengyan.com/book/7473.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['轩辕小少'],
+ 'bookname': ['道宗鬼少'],
+ 'novelurl': ['http://www.hengyan.com/book/8031.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['柿子会上树'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('柿子会上树'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['古道神龙'],
+ 'bookname': ['女神的威猛兵王'],
+ 'novelurl': ['http://www.hengyan.com/book/12593.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['失人'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('失人'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] ERROR: Error processing {'author': ['杨四儿'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('杨四儿'),())' at line 1")
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['曾经的曾经'],
+ 'bookname': ['我又不是乖乖女'],
+ 'novelurl': ['http://mm.hengyan.com/book/2547.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['诗音落'],
+ 'bookname': ['天依舞风'],
+ 'novelurl': ['http://www.hengyan.com/book/2542.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['风小峰'],
+ 'bookname': ['风神重修录'],
+ 'novelurl': ['http://www.hengyan.com/book/2541.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['恶狼闯说'],
+ 'bookname': ['龙珠故乡'],
+ 'novelurl': ['http://www.hengyan.com/book/2535.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['桓僧'],
+ 'bookname': ['踏霄录'],
+ 'novelurl': ['http://www.hengyan.com/book/2534.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['埃索达'],
+ 'bookname': ['虐神决'],
+ 'novelurl': ['http://www.hengyan.com/book/2527.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['萌羊'],
+ 'bookname': ['青春微小说：我们一起开始心的旅行'],
+ 'novelurl': ['http://mm.hengyan.com/book/2526.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['太子兮'],
+ 'bookname': ['秋末寒蝉'],
+ 'novelurl': ['http://mm.hengyan.com/book/2516.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['云汐之语'],
+ 'bookname': ['乖乖公主&黑道女'],
+ 'novelurl': ['http://mm.hengyan.com/book/2510.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['凯子成'],
+ 'bookname': ['破龙双决'],
+ 'novelurl': ['http://www.hengyan.com/book/2509.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['洛洄'],
+ 'bookname': ['嗜妃'],
+ 'novelurl': ['http://mm.hengyan.com/book/2500.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['寺中木鱼'],
+ 'bookname': ['神兵封魔'],
+ 'novelurl': ['http://www.hengyan.com/book/2497.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['萌佳茶'],
+ 'bookname': ['相知相随小浪漫'],
+ 'novelurl': ['http://mm.hengyan.com/book/2432.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['百里奚'],
+ 'bookname': ['霸道公主VS天才校草'],
+ 'novelurl': ['http://mm.hengyan.com/book/2328.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['凤月未了'],
+ 'bookname': ['旷世女皇'],
+ 'novelurl': ['http://www.hengyan.com/book/2327.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['安尐婕'],
+ 'bookname': ['我们的爱情流年'],
+ 'novelurl': ['http://mm.hengyan.com/book/2326.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['EROR深蓝'],
+ 'bookname': ['孤煞苍穹 ，神之路'],
+ 'novelurl': ['http://www.hengyan.com/book/2325.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['火曦夜影'],
+ 'bookname': ['七劫圣痕'],
+ 'novelurl': ['http://www.hengyan.com/book/2317.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['雨殇泪'],
+ 'bookname': ['亡命天使恋上谁'],
+ 'novelurl': ['http://mm.hengyan.com/book/2303.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['夏末午后A盛放'],
+ 'bookname': ['爱上皇室拽公主'],
+ 'novelurl': ['http://mm.hengyan.com/book/2260.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['残落筱筱'],
+ 'bookname': ['恋上调皮公主'],
+ 'novelurl': ['http://mm.hengyan.com/book/2259.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['萌羊'],
+ 'bookname': ['温瞳暖梦'],
+ 'novelurl': ['http://mm.hengyan.com/book/2252.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['阿梾'],
+ 'bookname': ['时光不说话'],
+ 'novelurl': ['http://mm.hengyan.com/book/2245.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['淑宇'],
+ 'bookname': ['草薰的甜果'],
+ 'novelurl': ['http://mm.hengyan.com/book/2783.aspx']}
+2018-04-20 16:37:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['夜风'],
+ 'bookname': ['剑尊道'],
+ 'novelurl': ['http://www.hengyan.com/book/2782.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['叶语'],
+ 'bookname': ['逐鹿洪荒'],
+ 'novelurl': ['http://www.hengyan.com/book/2781.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['Baneada'],
+ 'bookname': ['赛尔号航行史'],
+ 'novelurl': ['http://www.hengyan.com/book/2780.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['玉小雪'],
+ 'bookname': ['绝世妖神'],
+ 'novelurl': ['http://www.hengyan.com/book/2778.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['精灵坏蛋的传奇之旅'],
+ 'novelurl': ['http://www.hengyan.com/book/2776.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['龙儿小恋'],
+ 'bookname': ['御景旷世'],
+ 'novelurl': ['http://www.hengyan.com/book/2775.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['红薯粉丝'],
+ 'bookname': ['网游之重生烙痕'],
+ 'novelurl': ['http://www.hengyan.com/book/2773.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['光暗交错时刻'],
+ 'novelurl': ['http://www.hengyan.com/book/2768.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['颠覆脑控界'],
+ 'novelurl': ['http://www.hengyan.com/book/2767.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['声东击西'],
+ 'bookname': ['昔年'],
+ 'novelurl': ['http://www.hengyan.com/book/2766.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['朱旭恒'],
+ 'bookname': ['笑天传说'],
+ 'novelurl': ['http://www.hengyan.com/book/2765.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['逍遥海'],
+ 'bookname': ['逆神颂'],
+ 'novelurl': ['http://www.hengyan.com/book/2764.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['繁花更迭'],
+ 'bookname': ['轮回法神'],
+ 'novelurl': ['http://www.hengyan.com/book/2763.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['青楼少爷'],
+ 'bookname': ['饕餮传说'],
+ 'novelurl': ['http://www.hengyan.com/book/2759.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['青蛙跳井'],
+ 'bookname': ['飘渺佣兵团'],
+ 'novelurl': ['http://www.hengyan.com/book/2757.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['世纪大混战之动漫无敌'],
+ 'novelurl': ['http://mm.hengyan.com/book/2756.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['魔功九重'],
+ 'novelurl': ['http://www.hengyan.com/book/2755.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['吹雪了无痕'],
+ 'bookname': ['坠星辰'],
+ 'novelurl': ['http://www.hengyan.com/book/2754.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['贾子翼'],
+ 'bookname': ['虐仙魔'],
+ 'novelurl': ['http://www.hengyan.com/book/2752.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['红凤青鸾'],
+ 'bookname': ['魔鬼仙魂'],
+ 'novelurl': ['http://www.hengyan.com/book/2750.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['八目鳗'],
+ 'bookname': ['轮回业'],
+ 'novelurl': ['http://www.hengyan.com/book/2749.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['夏花半岛'],
+ 'bookname': ['血眸'],
+ 'novelurl': ['http://www.hengyan.com/book/2747.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['风临火山'],
+ 'bookname': ['太玄道尊'],
+ 'novelurl': ['http://www.hengyan.com/book/2744.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['徐娘'],
+ 'bookname': ['禁锢与自由'],
+ 'novelurl': ['http://www.hengyan.com/book/2743.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['零点星辰'],
+ 'bookname': ['零点星辰'],
+ 'novelurl': ['http://www.hengyan.com/book/2742.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['唯爱唯熙'],
+ 'bookname': ['兵之王'],
+ 'novelurl': ['http://www.hengyan.com/book/2741.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['面具王'],
+ 'bookname': ['乱世醒龙'],
+ 'novelurl': ['http://www.hengyan.com/book/2740.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['懒懒的'],
+ 'bookname': ['万重魂天'],
+ 'novelurl': ['http://www.hengyan.com/book/2734.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['焱諦天下'],
+ 'bookname': ['圣灵之王'],
+ 'novelurl': ['http://www.hengyan.com/book/2731.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['千陌羽'],
+ 'bookname': ['斩天裂地'],
+ 'novelurl': ['http://www.hengyan.com/book/2730.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['离城丶俊'],
+ 'bookname': ['异界幻想之降临之子'],
+ 'novelurl': ['http://www.hengyan.com/book/2729.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['悲情周少'],
+ 'bookname': ['跪着走完自己选的路'],
+ 'novelurl': ['http://mm.hengyan.com/book/2725.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['偷心的猫'],
+ 'bookname': ['爷！你就从了本姑娘吧！'],
+ 'novelurl': ['http://mm.hengyan.com/book/2724.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['紫剑望天'],
+ 'bookname': ['修冥起始'],
+ 'novelurl': ['http://www.hengyan.com/book/2723.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['孤竹'],
+ 'bookname': ['星神犹魔'],
+ 'novelurl': ['http://www.hengyan.com/book/2722.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['古明月夜'],
+ 'bookname': ['天珠奇缘'],
+ 'novelurl': ['http://www.hengyan.com/book/2721.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['舒思宇'],
+ 'bookname': ['异世妖帝'],
+ 'novelurl': ['http://www.hengyan.com/book/2720.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['太监之神'],
+ 'bookname': ['综漫之超级白纸'],
+ 'novelurl': ['http://mm.hengyan.com/book/2717.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['孤竹'],
+ 'bookname': ['斗魔剑魂'],
+ 'novelurl': ['http://www.hengyan.com/book/2715.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['极品死神'],
+ 'bookname': ['天军策'],
+ 'novelurl': ['http://www.hengyan.com/book/2714.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] ERROR: Error processing {'author': ['心心点风'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('心心点风'),())' at line 1")
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['哭竹'],
+ 'bookname': ['有生'],
+ 'novelurl': ['http://mm.hengyan.com/book/2710.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['葬溟璃落'],
+ 'bookname': ['魔尊天残'],
+ 'novelurl': ['http://www.hengyan.com/book/2708.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['梦魇'],
+ 'bookname': ['重生小白脸'],
+ 'novelurl': ['http://www.hengyan.com/book/2707.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['嘉荟'],
+ 'bookname': ['三生缘兰灵篇'],
+ 'novelurl': ['http://mm.hengyan.com/book/2705.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['十月雨琦'],
+ 'bookname': ['魔能高校'],
+ 'novelurl': ['http://www.hengyan.com/book/2696.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['呼云啸月'],
+ 'bookname': ['寻天逆道'],
+ 'novelurl': ['http://www.hengyan.com/book/2695.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['荡剑天下'],
+ 'bookname': ['玄天幻剑录'],
+ 'novelurl': ['http://www.hengyan.com/book/2685.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['臨水止影'],
+ 'bookname': ['九天录'],
+ 'novelurl': ['http://www.hengyan.com/book/2684.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['星际战神'],
+ 'bookname': ['穿越之宇宙争霸'],
+ 'novelurl': ['http://www.hengyan.com/book/2682.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['学海天涯'],
+ 'bookname': ['僵尸天涯'],
+ 'novelurl': ['http://www.hengyan.com/book/2678.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['狐狸精的梦'],
+ 'bookname': ['爱上单纯小女人'],
+ 'novelurl': ['http://mm.hengyan.com/book/2677.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['分手吧'],
+ 'bookname': ['华夏危机'],
+ 'novelurl': ['http://www.hengyan.com/book/2673.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['星际战神'],
+ 'bookname': ['星河大作战'],
+ 'novelurl': ['http://www.hengyan.com/book/2666.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['雷沫'],
+ 'bookname': ['灵神诀'],
+ 'novelurl': ['http://www.hengyan.com/book/2665.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['触摸到黑暗'],
+ 'bookname': ['玄岛圣战'],
+ 'novelurl': ['http://www.hengyan.com/book/2664.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['吾是流氓'],
+ 'bookname': ['修真流氓至尊'],
+ 'novelurl': ['http://www.hengyan.com/book/2663.aspx']}
+2018-04-20 16:38:00 [scrapy.core.scraper] ERROR: Error processing {'author': [], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),(),())' at line 1")
+2018-04-20 16:38:00 [scrapy.core.scraper] ERROR: Error processing {'author': [], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),(),())' at line 1")
+2018-04-20 16:38:00 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-20 16:38:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 221,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 45970,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 20, 8, 38, 0, 178699),
+ 'item_scraped_count': 85,
+ 'log_count/DEBUG': 87,
+ 'log_count/ERROR': 20,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 4, 20, 8, 37, 59, 558154)}
+2018-04-20 16:38:00 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-20 16:39:39 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-20 16:39:39 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-20 16:39:39 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-20 16:39:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-20 16:39:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-20 16:39:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-20 16:39:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapydemo.pipelines.ScrapydemoPipeline']
+2018-04-20 16:39:40 [scrapy.core.engine] INFO: Spider opened
+2018-04-20 16:39:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-20 16:39:40 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-20 16:39:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/haokan/> (referer: None)
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': [], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),(),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': [], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),(),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['作者'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('作者'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['剑锋'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('剑锋'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['玄医灵药'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('玄医灵药'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['米早早'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('米早早'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['日当午'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('日当午'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['挥墨客'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('挥墨客'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['猫猫德'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('猫猫德'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['风光不再'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('风光不再'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['挥墨客'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('挥墨客'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['雪无泪'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('雪无泪'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['天上无鱼'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('天上无鱼'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['悲情周少'],
+ 'bookname': ['顶级强少'],
+ 'novelurl': ['http://www.hengyan.com/book/2344.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['莫一'],
+ 'bookname': ['冷皇琴后'],
+ 'novelurl': ['http://mm.hengyan.com/book/13314.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['小怪'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('小怪'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['烈酒砒霜'],
+ 'bookname': ['逆天魔神'],
+ 'novelurl': ['http://www.hengyan.com/book/7473.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['轩辕小少'],
+ 'bookname': ['道宗鬼少'],
+ 'novelurl': ['http://www.hengyan.com/book/8031.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['柿子会上树'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('柿子会上树'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['古道神龙'],
+ 'bookname': ['女神的威猛兵王'],
+ 'novelurl': ['http://www.hengyan.com/book/12593.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['失人'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('失人'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['杨四儿'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('杨四儿'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['曾经的曾经'],
+ 'bookname': ['我又不是乖乖女'],
+ 'novelurl': ['http://mm.hengyan.com/book/2547.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['诗音落'],
+ 'bookname': ['天依舞风'],
+ 'novelurl': ['http://www.hengyan.com/book/2542.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['风小峰'],
+ 'bookname': ['风神重修录'],
+ 'novelurl': ['http://www.hengyan.com/book/2541.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['恶狼闯说'],
+ 'bookname': ['龙珠故乡'],
+ 'novelurl': ['http://www.hengyan.com/book/2535.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['桓僧'],
+ 'bookname': ['踏霄录'],
+ 'novelurl': ['http://www.hengyan.com/book/2534.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['埃索达'],
+ 'bookname': ['虐神决'],
+ 'novelurl': ['http://www.hengyan.com/book/2527.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['萌羊'],
+ 'bookname': ['青春微小说：我们一起开始心的旅行'],
+ 'novelurl': ['http://mm.hengyan.com/book/2526.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['太子兮'],
+ 'bookname': ['秋末寒蝉'],
+ 'novelurl': ['http://mm.hengyan.com/book/2516.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['云汐之语'],
+ 'bookname': ['乖乖公主&黑道女'],
+ 'novelurl': ['http://mm.hengyan.com/book/2510.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['凯子成'],
+ 'bookname': ['破龙双决'],
+ 'novelurl': ['http://www.hengyan.com/book/2509.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['洛洄'],
+ 'bookname': ['嗜妃'],
+ 'novelurl': ['http://mm.hengyan.com/book/2500.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['寺中木鱼'],
+ 'bookname': ['神兵封魔'],
+ 'novelurl': ['http://www.hengyan.com/book/2497.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['萌佳茶'],
+ 'bookname': ['相知相随小浪漫'],
+ 'novelurl': ['http://mm.hengyan.com/book/2432.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['百里奚'],
+ 'bookname': ['霸道公主VS天才校草'],
+ 'novelurl': ['http://mm.hengyan.com/book/2328.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['凤月未了'],
+ 'bookname': ['旷世女皇'],
+ 'novelurl': ['http://www.hengyan.com/book/2327.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['安尐婕'],
+ 'bookname': ['我们的爱情流年'],
+ 'novelurl': ['http://mm.hengyan.com/book/2326.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['EROR深蓝'],
+ 'bookname': ['孤煞苍穹 ，神之路'],
+ 'novelurl': ['http://www.hengyan.com/book/2325.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['火曦夜影'],
+ 'bookname': ['七劫圣痕'],
+ 'novelurl': ['http://www.hengyan.com/book/2317.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['雨殇泪'],
+ 'bookname': ['亡命天使恋上谁'],
+ 'novelurl': ['http://mm.hengyan.com/book/2303.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['夏末午后A盛放'],
+ 'bookname': ['爱上皇室拽公主'],
+ 'novelurl': ['http://mm.hengyan.com/book/2260.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['残落筱筱'],
+ 'bookname': ['恋上调皮公主'],
+ 'novelurl': ['http://mm.hengyan.com/book/2259.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['萌羊'],
+ 'bookname': ['温瞳暖梦'],
+ 'novelurl': ['http://mm.hengyan.com/book/2252.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['阿梾'],
+ 'bookname': ['时光不说话'],
+ 'novelurl': ['http://mm.hengyan.com/book/2245.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['淑宇'],
+ 'bookname': ['草薰的甜果'],
+ 'novelurl': ['http://mm.hengyan.com/book/2783.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['夜风'],
+ 'bookname': ['剑尊道'],
+ 'novelurl': ['http://www.hengyan.com/book/2782.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['叶语'],
+ 'bookname': ['逐鹿洪荒'],
+ 'novelurl': ['http://www.hengyan.com/book/2781.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['Baneada'],
+ 'bookname': ['赛尔号航行史'],
+ 'novelurl': ['http://www.hengyan.com/book/2780.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['玉小雪'],
+ 'bookname': ['绝世妖神'],
+ 'novelurl': ['http://www.hengyan.com/book/2778.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['精灵坏蛋的传奇之旅'],
+ 'novelurl': ['http://www.hengyan.com/book/2776.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['龙儿小恋'],
+ 'bookname': ['御景旷世'],
+ 'novelurl': ['http://www.hengyan.com/book/2775.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['红薯粉丝'],
+ 'bookname': ['网游之重生烙痕'],
+ 'novelurl': ['http://www.hengyan.com/book/2773.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['光暗交错时刻'],
+ 'novelurl': ['http://www.hengyan.com/book/2768.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['颠覆脑控界'],
+ 'novelurl': ['http://www.hengyan.com/book/2767.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['声东击西'],
+ 'bookname': ['昔年'],
+ 'novelurl': ['http://www.hengyan.com/book/2766.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['朱旭恒'],
+ 'bookname': ['笑天传说'],
+ 'novelurl': ['http://www.hengyan.com/book/2765.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['逍遥海'],
+ 'bookname': ['逆神颂'],
+ 'novelurl': ['http://www.hengyan.com/book/2764.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['繁花更迭'],
+ 'bookname': ['轮回法神'],
+ 'novelurl': ['http://www.hengyan.com/book/2763.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['青楼少爷'],
+ 'bookname': ['饕餮传说'],
+ 'novelurl': ['http://www.hengyan.com/book/2759.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['青蛙跳井'],
+ 'bookname': ['飘渺佣兵团'],
+ 'novelurl': ['http://www.hengyan.com/book/2757.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['世纪大混战之动漫无敌'],
+ 'novelurl': ['http://mm.hengyan.com/book/2756.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['天尊'],
+ 'bookname': ['魔功九重'],
+ 'novelurl': ['http://www.hengyan.com/book/2755.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['吹雪了无痕'],
+ 'bookname': ['坠星辰'],
+ 'novelurl': ['http://www.hengyan.com/book/2754.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['贾子翼'],
+ 'bookname': ['虐仙魔'],
+ 'novelurl': ['http://www.hengyan.com/book/2752.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['红凤青鸾'],
+ 'bookname': ['魔鬼仙魂'],
+ 'novelurl': ['http://www.hengyan.com/book/2750.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['八目鳗'],
+ 'bookname': ['轮回业'],
+ 'novelurl': ['http://www.hengyan.com/book/2749.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['夏花半岛'],
+ 'bookname': ['血眸'],
+ 'novelurl': ['http://www.hengyan.com/book/2747.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['风临火山'],
+ 'bookname': ['太玄道尊'],
+ 'novelurl': ['http://www.hengyan.com/book/2744.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['徐娘'],
+ 'bookname': ['禁锢与自由'],
+ 'novelurl': ['http://www.hengyan.com/book/2743.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['零点星辰'],
+ 'bookname': ['零点星辰'],
+ 'novelurl': ['http://www.hengyan.com/book/2742.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['唯爱唯熙'],
+ 'bookname': ['兵之王'],
+ 'novelurl': ['http://www.hengyan.com/book/2741.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['面具王'],
+ 'bookname': ['乱世醒龙'],
+ 'novelurl': ['http://www.hengyan.com/book/2740.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['懒懒的'],
+ 'bookname': ['万重魂天'],
+ 'novelurl': ['http://www.hengyan.com/book/2734.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['焱諦天下'],
+ 'bookname': ['圣灵之王'],
+ 'novelurl': ['http://www.hengyan.com/book/2731.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['千陌羽'],
+ 'bookname': ['斩天裂地'],
+ 'novelurl': ['http://www.hengyan.com/book/2730.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['离城丶俊'],
+ 'bookname': ['异界幻想之降临之子'],
+ 'novelurl': ['http://www.hengyan.com/book/2729.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['悲情周少'],
+ 'bookname': ['跪着走完自己选的路'],
+ 'novelurl': ['http://mm.hengyan.com/book/2725.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['偷心的猫'],
+ 'bookname': ['爷！你就从了本姑娘吧！'],
+ 'novelurl': ['http://mm.hengyan.com/book/2724.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['紫剑望天'],
+ 'bookname': ['修冥起始'],
+ 'novelurl': ['http://www.hengyan.com/book/2723.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['孤竹'],
+ 'bookname': ['星神犹魔'],
+ 'novelurl': ['http://www.hengyan.com/book/2722.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['古明月夜'],
+ 'bookname': ['天珠奇缘'],
+ 'novelurl': ['http://www.hengyan.com/book/2721.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['舒思宇'],
+ 'bookname': ['异世妖帝'],
+ 'novelurl': ['http://www.hengyan.com/book/2720.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['太监之神'],
+ 'bookname': ['综漫之超级白纸'],
+ 'novelurl': ['http://mm.hengyan.com/book/2717.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['孤竹'],
+ 'bookname': ['斗魔剑魂'],
+ 'novelurl': ['http://www.hengyan.com/book/2715.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['极品死神'],
+ 'bookname': ['天军策'],
+ 'novelurl': ['http://www.hengyan.com/book/2714.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': ['心心点风'], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),('心心点风'),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['哭竹'],
+ 'bookname': ['有生'],
+ 'novelurl': ['http://mm.hengyan.com/book/2710.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['葬溟璃落'],
+ 'bookname': ['魔尊天残'],
+ 'novelurl': ['http://www.hengyan.com/book/2708.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['梦魇'],
+ 'bookname': ['重生小白脸'],
+ 'novelurl': ['http://www.hengyan.com/book/2707.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['嘉荟'],
+ 'bookname': ['三生缘兰灵篇'],
+ 'novelurl': ['http://mm.hengyan.com/book/2705.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['十月雨琦'],
+ 'bookname': ['魔能高校'],
+ 'novelurl': ['http://www.hengyan.com/book/2696.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['呼云啸月'],
+ 'bookname': ['寻天逆道'],
+ 'novelurl': ['http://www.hengyan.com/book/2695.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['荡剑天下'],
+ 'bookname': ['玄天幻剑录'],
+ 'novelurl': ['http://www.hengyan.com/book/2685.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['臨水止影'],
+ 'bookname': ['九天录'],
+ 'novelurl': ['http://www.hengyan.com/book/2684.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['星际战神'],
+ 'bookname': ['穿越之宇宙争霸'],
+ 'novelurl': ['http://www.hengyan.com/book/2682.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['学海天涯'],
+ 'bookname': ['僵尸天涯'],
+ 'novelurl': ['http://www.hengyan.com/book/2678.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['狐狸精的梦'],
+ 'bookname': ['爱上单纯小女人'],
+ 'novelurl': ['http://mm.hengyan.com/book/2677.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['分手吧'],
+ 'bookname': ['华夏危机'],
+ 'novelurl': ['http://www.hengyan.com/book/2673.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['星际战神'],
+ 'bookname': ['星河大作战'],
+ 'novelurl': ['http://www.hengyan.com/book/2666.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['雷沫'],
+ 'bookname': ['灵神诀'],
+ 'novelurl': ['http://www.hengyan.com/book/2665.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['触摸到黑暗'],
+ 'bookname': ['玄岛圣战'],
+ 'novelurl': ['http://www.hengyan.com/book/2664.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://top.hengyan.com/haokan/>
+{'author': ['吾是流氓'],
+ 'bookname': ['修真流氓至尊'],
+ 'novelurl': ['http://www.hengyan.com/book/2663.aspx']}
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': [], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),(),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.scraper] ERROR: Error processing {'author': [], 'bookname': [], 'novelurl': []}
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\pipelines.py", line 20, in process_item
+    self.cur.execute(sql, lis)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '),(),())' at line 1")
+2018-04-20 16:39:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-20 16:39:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 221,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 45970,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 20, 8, 39, 40, 784172),
+ 'item_scraped_count': 85,
+ 'log_count/DEBUG': 87,
+ 'log_count/ERROR': 20,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 4, 20, 8, 39, 40, 195519)}
+2018-04-20 16:39:40 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-20 16:45:12 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-20 16:45:12 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-20 16:45:12 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-20 16:45:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-20 16:45:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-20 16:45:13 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-20 16:45:13 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapydemo.pipelines.ScrapydemoPipeline']
+2018-04-20 16:45:13 [scrapy.core.engine] INFO: Spider opened
+2018-04-20 16:45:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-20 16:45:13 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-20 16:45:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/haokan/> (referer: None)
+2018-04-20 16:45:13 [scrapy.core.scraper] ERROR: Spider error processing <GET http://top.hengyan.com/haokan/> (referer: None)
+Traceback (most recent call last):
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\pycharm-workspace\scrapydemo\scrapydemo\spiders\BiduSpider.py", line 48, in parse
+    url_next = selector.xpath("//@class='pager'/a[text()='下一页']/@href".encode("utf8")).extract()
+  File "E:\pycharm-workspace\Demo\venv\lib\site-packages\parsel\selector.py", line 228, in xpath
+    **kwargs)
+  File "src\lxml\etree.pyx", line 1577, in lxml.etree._Element.xpath
+  File "src\lxml\xpath.pxi", line 295, in lxml.etree.XPathElementEvaluator.__call__
+  File "src\lxml\apihelpers.pxi", line 1439, in lxml.etree._utf8
+ValueError: All strings must be XML compatible: Unicode or ASCII, no NULL bytes or control characters
+2018-04-20 16:45:13 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-20 16:45:13 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 221,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 45970,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 20, 8, 45, 13, 539569),
+ 'log_count/DEBUG': 2,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2018, 4, 20, 8, 45, 13, 171709)}
+2018-04-20 16:45:13 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-04-22 12:21:10 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: scrapydemo)
+2018-04-22 12:21:10 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0h  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.16299-SP0
+2018-04-22 12:21:10 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'scrapydemo', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'scrapydemo.spiders', 'SPIDER_MODULES': ['scrapydemo.spiders']}
+2018-04-22 12:21:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-04-22 12:21:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-04-22 12:21:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-04-22 12:21:11 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapydemo.pipelines.ScrapydemoPipeline']
+2018-04-22 12:21:11 [scrapy.core.engine] INFO: Spider opened
+2018-04-22 12:21:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-04-22 12:21:11 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-04-22 12:21:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/quanben/> (referer: None)
+2018-04-22 12:21:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/quanben/default.aspx?p=2> (referer: http://top.hengyan.com/quanben/)
+2018-04-22 12:21:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/quanben/default.aspx?p=3> (referer: http://top.hengyan.com/quanben/default.aspx?p=2)
+2018-04-22 12:21:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/quanben/default.aspx?p=4> (referer: http://top.hengyan.com/quanben/default.aspx?p=3)
+2018-04-22 12:21:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://top.hengyan.com/quanben/default.aspx?p=5> (referer: http://top.hengyan.com/quanben/default.aspx?p=4)
+2018-04-22 12:21:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-04-22 12:21:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1390,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 129623,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 4, 22, 4, 21, 12, 582958),
+ 'log_count/DEBUG': 6,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 4,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 5,
+ 'scheduler/dequeued/memory': 5,
+ 'scheduler/enqueued': 5,
+ 'scheduler/enqueued/memory': 5,
+ 'start_time': datetime.datetime(2018, 4, 22, 4, 21, 11, 152261)}
+2018-04-22 12:21:12 [scrapy.core.engine] INFO: Spider closed (finished)
